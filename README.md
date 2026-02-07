@@ -3,7 +3,7 @@
 ## 出題１ 
 Gitについて調べ、何をするツールで何が便利なのかなどを３００〜５００字程度にまとめてください。
 
-Gitはソースコードを管理・共有するための分散型バージョン管理システムです。コードに加えられた変更を,レポジトリと言われるデータベースに、バージョンとして記録することにより、開発・管理がスムーズに行えます。例えば、ファイルを変更した場合、修正版・変更版など複数のファイルが存在すると、どのファイルを編集するべきか把握がしにくくなります。Gitではファイルを変更した場合、変更内容などの履歴と一緒にファイルを保存できるため、最新のファイルや変更状況がすぐにわかり、目的のファイルを把握しやすくなります。また、ファイルを上書きしたとしても、任意のバージョンへ戻すことも簡単にできます。その他、中央のサーバーに接続してファイルを管理する中央集中型に比べると、Gitはユーザーがそれぞれレポジトリを持つ分散型であるため、サーバーがオフラインになって使用できなくなるというリスクが無く管理することができます。
+Gitはソースコードを管理・共有するための分散型バージョン管理システムです。コードに加えられた変更を、レポジトリと言われるデータベースに、バージョンとして記録することにより、開発・管理がスムーズに行えます。例えば、ファイルを変更した場合、修正版・変更版など複数のファイルが存在すると、どのファイルを編集するべきか把握がしにくくなります。Gitではファイルを変更した場合、変更内容などの履歴と一緒にファイルを保存できるため、最新のファイルや変更状況がすぐにわかり、目的のファイルを把握しやすくなります。また、ファイルを上書きしたとしても、任意のバージョンへ戻すことも簡単にできます。その他、中央のサーバーに接続してファイルを管理する中央集中型に比べると、Gitはユーザーがそれぞれレポジトリを持つ分散型であるため、サーバーがオフラインになって使用できなくなるというリスクが無く管理することができます。
 
 ## 出題２
 GitHubについて同様に調べ３００〜５００字程度にまとめてください。
@@ -23,34 +23,30 @@ Markdownはデジタル文章を作成するときに使用するHTMLなどの�
 
 - gitについて調べる 2026/02/06/7:28
 
-  - 図解解説】これ1本でGitをマスターできるチュートリアル！【完全版】／@Sicut_study(渡邉 臣 | JISOU)in JISOU | Reactプログラミングコーチング／Qiita
-https://qiita.com/Sicut_study/items/0318cc136c189b179b7f
-   - 【入門】Gitとは？できることや使い方、GitHubとの違いをわかりやすく解説／カゴヤのサーバー研究室
-https://www.kagoya.jp/howto/it-glossary/develop/git/
-  - 【初心者向け】GITとは何か？GITの概念を解説／@a_goto
-(goto)／Qiitq
-https://qiita.com/a_goto/items/0fe40b17105d1ac1c40b
+  - 図解解説】これ1本でGitをマスターできるチュートリアル！【完全版】／@Sicut_study(渡邉 臣 | JISOU)in JISOU | Reactプログラミングコーチング／Qiita https://qiita.com/Sicut_study/items/0318cc136c189b179b7f
+  - 【入門】Gitとは？できることや使い方、GitHubとの違いをわかりやすく解説／カゴヤのサーバー研究室 https://www.kagoya.jp/howto/it-glossary/develop/git/
+  - 【初心者向け】GITとは何か？GITの概念を解説／@a_goto(goto)／Qiitq https://qiita.com/a_goto/items/0fe40b17105d1ac1c40b
 
 
 - githubについて調べる 2026/02/06/8:51
 
   - GitとGitHubの違いを理解して使い始めるには／Kinsta
-   https://kinsta.com/jp/blog/git-vs-github/
-   - GitHubとは？メリットやデメリット・注意点を解説！使い方や用語・基礎知識まとめ／blastengine
-   https://blastengine.jp/blog_content/github/
-   - GitHub(ギットハブ)とは？特徴や使い方を初心者向けにわかりやすく紹介／侍エンジニアリングブログ
-   https://www.sejuku.net/blog/7901
+  https://kinsta.com/jp/blog/git-vs-github/
+  - GitHubとは？メリットやデメリット・注意点を解説！使い方や用語・基礎知識まとめ／blastengine
+  https://blastengine.jp/blog_content/github/
+  - GitHub(ギットハブ)とは？特徴や使い方を初心者向けにわかりやすく紹介／侍エンジニアリングブログ
+  https://www.sejuku.net/blog/7901
 
 
 - Markdownについて調べる 2026/02/06/9:02
   - 【マークダウン記法とは？】マークダウンの書き方を網羅的に解説／backlog
-   https://backlog.com/ja/blog/how-to-write-markdown
-   - Markdown記法一覧／@oreo(oreo)in Goodpatch／Qiita
-   https://backlog.com/ja/blog/how-to-write-markdown
+  https://backlog.com/ja/blog/how-to-write-markdown
+  - Markdown記法一覧／@oreo(oreo)in Goodpatch／Qiita
+  https://backlog.com/ja/blog/how-to-write-markdown
 
 
 
-これ以降も基本的に初心者向けのサイトを適当に検索し、記事と異なる部分、よくわからない部分をChat-GPTに頼りながら進めた。
+これ以降も基本的に初心者向けのサイトを適当に検索し、記事と異なる部分、よくわからない部分をChatGPTに頼りながら進めた。
 
 
 
@@ -60,14 +56,14 @@ https://qiita.com/a_goto/items/0fe40b17105d1ac1c40b
   - Macにはgitがあらかじめ入っていることもある。
     - 入っているバージョンを(一応)確かめる
   - バージョンアップする（インストールし直す）
-     - Xcodeのコマンドラインツールをインストール
-     - Homebrewをインストール（インストーラーがあるようだがわからなかった）
-     - Homebrewでgitをインストール
-     - macのgitとHomebrewのgitが存在してしまうので、Homebrewのgitを優先するように指定する
+    - Xcodeのコマンドラインツールをインストール
+    - Homebrewをインストール（インストーラーがあるようだがわからなかった）
+    - Homebrewでgitをインストール
+    - macのgitとHomebrewのgitが存在してしまうので、Homebrewのgitを優先するように指定する
   - コマンドの種類
     - git --version（入っている（優先の）gitのバージョンは？）
     - xcode-select --install（xcordインストール）
-    - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" （Homebrewインストール）
+    - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" （Homebrewをインストール）
     - brew --version （Homebrewnのバージョンは？）
     - brew install git （gitをインストール）
     - brew update（Homebrew最新にして）
@@ -86,16 +82,13 @@ https://qiita.com/a_goto/items/0fe40b17105d1ac1c40b
       - → xcode-select: note: Command line tools are already installed. Use "Software Update" in System Settings or the softwareupdate command line interface to install updates → もうインストールされてるからアップデートをインストールして（システム設定かコマンドで）
       - → システム設定でソフトウェアアップデートする
     - Homebrewのインストール
-      - Homebrew https://brew.sh（インストール用コマンドがのってる）
+      - Homebrew https://brew.sh（インストール用コマンドがのっている）
       - [ターミナル]/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" （Homebrewインストール）
       - → [ターミナル]brew --version （Homebrewインストールされたか？）
       - → zsh: command not found: brew  （インストールできていない）
       - → まだインストール中かも（待ってみる）→ 
 
-      - → ==> Next steps:Run these commands in your terminal to add Homebrew to your PATH:
-    echo >> /Users/iwanomutsumi/.zprofile
-    echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/iwanomutsumi/.zprofile
-    eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+      - → ==> Next steps:Run these commands in your terminal to add Homebrew to your PATH: echo >> /Users/iwanomutsumi/.zprofile echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/iwanomutsumi/.zprofile eval "$(/opt/homebrew/bin/brew shellenv zsh)"
       - → 指示どうりコマンドを入れる
       - [ターミナル]echo >> /Users/iwanomutsumi/.zprofile
       - [ターミナル]echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/iwanomutsumi/.zprofile
@@ -111,8 +104,6 @@ https://qiita.com/a_goto/items/0fe40b17105d1ac1c40b
       - → Warning: git 2.52.0_1 already installed（もうインストールされてる）
       - [ターミナル]git --version（もう一回バージョン聞いてみる）
       - → git version 2.50.1 (Apple Git-155)（まだmac）
-
-
     - Macのgitからhomebrewのgitに優先を変更する
       - ChatGTPによるとHomebrrew側のgitが優先されていない（Macのgit優先）
       - [ターミナル]which git（どっちのgit優先?）
@@ -142,7 +133,7 @@ https://qiita.com/a_goto/items/0fe40b17105d1ac1c40b
        - クリップボードに公開鍵をコピーしてgithubに渡せるようにする
        - 自分のPCに秘密鍵を登録
      - 新しい鍵の作り方（GitHub推奨・こちらに作り直した）
-        - Githubでアカウントを作成しておく
+       - Githubでアカウントを作成しておく
        - 現在作られている鍵を確認（古いの一回作ったから）
        - 鍵を作成
        - 場所・フレーズ聞かれたら３回エンターは同じ
@@ -153,83 +144,49 @@ https://qiita.com/a_goto/items/0fe40b17105d1ac1c40b
 - 実施内容 2026/02/06/17:25
 
   - 名前とメアドの登録
-
-     - [ターミナル]git config --global user.name "Iwano Mutsumi"（名前登録）
-    - → [ターミナル]git config --global user.email iwanomutsumi@gmail.com（メアド登録）
-     - [ターミナル]git config --global --list（登録できた？）
+    - [ターミナル]git config --global user.name "Iwano Mutsumi"（名前登録）
+    - [ターミナル]git config --global user.email iwanomutsumi@gmail.com（メアド登録）
+    - [ターミナル]git config --global --list（登録できた？）
     - → user.name=Iwano Mutsumi
     - → user.email=iwanomutsumi@gmail.com (設定できた) 
   - SSH接続のための鍵を作る
-     - [ターミナル]cd ~/.ssh（鍵作る場所に移動）
-     - [ターミナル]ssh-keygen -t rsa（SSH鍵生成ツールでRSA方式の鍵を作る）
+    - [ターミナル]cd ~/.ssh（鍵作る場所に移動）
+    - [ターミナル]ssh-keygen -t rsa（SSH鍵生成ツールでRSA方式の鍵を作る）
     - → Generating public/private rsa key pair.（鍵作るよ）
     - → Enter file in which to save the key (/Users/(username)/.ssh/id_rsa):（ここに鍵保存でいい？）
-     - Enter（そのままそこで）
+    - Enter（そのままそこで）
     - → Enter passphrase (empty for no passphrase):（鍵にパスフレーズつける？）
     - Enter(つけない)
     - → Enter same passphrase again:（確認のためもう一回パスフレーズ入れて）
     - Enter（つけない）
-    - → Your identification has been saved in /Users/iwanomutsumi/.ssh/id_rsa
-Your public key has been saved in /Users/iwanomutsumi/.ssh/id_rsa.pub
-The key fingerprint is:
-SHA256:12+wt3kwvhSSNQsC+ZibShmsvzdnVgVu1a88tEP2jcc iwanomutsumi@iwanomutsuminoMacBook-Pro.local
-The key's randomart image is:
-+---[RSA 3072]----+
-|        ..     . |
-|        ..  . . .|
-|     .   +...oo .|
-|      o o .oo+=o.|
-|     . oSo..=*o*.|
-|    . o o.  .=X.E|
-|     o .   ...=* |
-|      o o +  +.o.|
-|      .o =    +o |
-+----[SHA256]-----+
+    - → Your identification has been saved in /Users/iwanomutsumi/.ssh/id_rsa Your public key has been saved in /Users/iwanomutsumi/.ssh/id_rsa.pub The key fingerprint is: SHA256:12+wt3kwvhSSNQsC+ZibShmsvzdnVgVu1a88tEP2jcc iwanomutsumi@iwanomutsuminoMacBook-Pro.local The key's randomart image is: +---[RSA 3072]----+|        ..     . |        ..  . . .||     .   +...oo .||      o o .oo+=o.||     . oSo..=*o*.||    . o o.  .=X.E||     o .   ...=* |      o o +  +.o.||      .o =    +o |+----[SHA256]-----+
 
 
 
     -  [ターミナル]ls ~/.ssh（鍵が作られた?）
-     - → id_rsa		id_rsa.pub（作られた）
-     -  [ターミナル]pbcopy < ~/.ssh/id_rsa.pub（クリップボードに公開鍵をコピー）
-     -  [ターミナル]ssh-add ~/.ssh/id_rsa（秘密鍵をPCに登録）
+    - → id_rsa		id_rsa.pub（作られた）
+    -  [ターミナル]pbcopy < ~/.ssh/id_rsa.pub（クリップボードに公開鍵をコピー）
+    -  [ターミナル]ssh-add ~/.ssh/id_rsa（秘密鍵をPCに登録）
     - → Identity added: /Users/iwanomutsumi/.ssh/id_rsa (iwanomutsumi@iwanomutsuminoMacBook-Pro.local)
   - 鍵が２種類あることに気がつく（もう一つの方法で作り直す）
     -  [ターミナル]ls ~/.ssh（結果でどちらの鍵が作られたか確認）
        - 例：id_ed25519_github など（新しい作り方。GitHub推奨）
        - id_rsa / id_rsa.pub（古い作り方。rasで作ってる）
       - githubアカウント作成 → 「GitHubアカウント作成へ」
-      -  [ターミナル]ssh-keygen -t ed25519 -C "iwanomutsumi@gmail.com"（新しい鍵作る）
-      - Generating public/private ed25519 key pair.
-Enter file in which to save the key (/Users/iwanomutsumi/.ssh/id_ed25519): 
-Enter passphrase for "/Users/iwanomutsumi/.ssh/id_ed25519" (empty for no passphrase): 
-Enter same passphrase again: 
+    -  [ターミナル]ssh-keygen -t ed25519 -C "iwanomutsumi@gmail.com"（新しい鍵作る）
+    - Generating public/private ed25519 key pair.Enter file in which to save the key (/Users/iwanomutsumi/.ssh/id_ed25519): Enter passphrase for "/Users/iwanomutsumi/.ssh/id_ed25519" (empty for no passphrase): Enter same passphrase again: 
 
-      - →３回Enter（フレーズなどで強化しない）
-      - → Your identification has been saved in /Users/iwanomutsumi/.ssh/id_ed25519
-Your public key has been saved in /Users/iwanomutsumi/.ssh/id_ed25519.pub
-The key fingerprint is:
-SHA256:7yjbKlir7Ro1IlZtd9Sy9Dta15c744s4U+x47oVkJlw iwanomutsumi@gmail.com
-The key's randomart image is:
-+--[ED25519 256]--+
-|         ..      |
-|    .   .o .     |
-|   . o ...+  E   |
-|  . . . .....    |
-|... o   S  oo+. .|
-|.. o..   . +=+.o.|
-|  .o .    + *. .o|
-|  .oo .. + +.oo+ |
-|  o+o.o+o ..*+.o+|
-+----[SHA256]-----+
+    - →３回Enter（フレーズなどで強化しない）
+    - → Your identification has been saved in /Users/iwanomutsumi/.ssh/id_ed25519 Your public key has been saved in /Users/iwanomutsumi/.ssh/id_ed25519.pub The key fingerprint is: SHA256:7yjbKlir7Ro1IlZtd9Sy9Dta15c744s4U+x47oVkJlw iwanomutsumi@gmail.com The key's randomart image is+--[ED25519 256]--+|         ..      ||    .   .o .     |   . o ...+  E   ||  . . . .....    |... o   S  oo+. .||.. o..   . +=+.o.|  .o .    + *. .o||  .oo .. + +.oo+ ||  o+o.o+o ..*+.o+|+----[SHA256]-----+
 
-      -  [ターミナル]eval "$(ssh-agent -s)"（鍵できた？）
-      - → Agent pid 12580（OK）
-      -  [ターミナル]ssh-add ~/.ssh/id_ed25519（秘密鍵PCに登録）
-      - → Identity added: /Users/iwanomutsumi/.ssh/id_ed25519 (iwanomutsumi@gmail.com)
-       -  [ターミナル]cat ~/.ssh/id_ed25519.pub（公開鍵をターミナルに表示・このコマンドは秘密鍵には絶丁使わないこと！）
-       - → ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINVuoF6F0il7lt5gALnQOccsENqhj028mjt/7DTK/O+d iwanomutsumi@gmail.com（表示さてた公開鍵）
+    -  [ターミナル]eval "$(ssh-agent -s)"（鍵できた？）
+    - → Agent pid 12580（OK）
+    -  [ターミナル]ssh-add ~/.ssh/id_ed25519（秘密鍵PCに登録）
+    - → Identity added: /Users/iwanomutsumi/.ssh/id_ed25519 (iwanomutsumi@gmail.com)
+    -  [ターミナル]cat ~/.ssh/id_ed25519.pub（公開鍵をターミナルに表示・このコマンドは秘密鍵には絶丁使わないこと！）
+    - → ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINVuoF6F0il7lt5gALnQOccsENqhj028mjt/7DTK/O+d iwanomutsumi@gmail.com（表示さてた公開鍵）
 
-      - GitHubサイトで公開鍵を登録
+    - GitHubサイトで公開鍵を登録
 
 
 
@@ -274,27 +231,29 @@ gitを使う前に、gitインストール・セットアップ、githubアカ�
      - git add .（ワーキングツリー内のファイルをまとめて）
      - git reset HEAD ファイル名（間違ってaddした場合に取り消す）
 
-- 実施内容   
+- 実施内容 
 
-     -  [ターミナル]git add README.md
+  - どこでどうすればコマンドが使えるのかわからなかった
+    -  [ターミナル]git add README.md
     - → atal: not a git repository (or any of the parent directories): .git（ターミナルがいる場所が違った？ファイルの場所が悪い？）
-     -  [ターミナル]pwd（場所確認）
-     - → /Users/iwanomutsumi
-     -  [ターミナル]ls（中身確認）
-     - → Desktop Downloads	Library Music Public ocuments	inittest	Movies Pictures
-     -  [ターミナル]cd ~/Desktop/課題（README.mdのあるフォルダへ移動）
-     - ダメだった
-     -  [ターミナル]pwd（場所確認）
-     →/Users/iwanomutsumi/Desktop/課題
-     -  [ターミナル]ls（中身確認）
-     - →0 2 4	README_R.md 1 3 README README.md
-     -  [ターミナル]git add README.md
-     -  [ターミナル]cd /Users/iwanomutsumi/inittest/.git/（git initで出たurlへ移動してみる）
-     - → ダメだった
-     -  [ターミナル]cd /Users/iwanomutsumi/inittest(作業ツリーへ移動)
-     -  [ターミナル]cp ~/Desktop/課題/README.md .（作業ツリーへファイルをコピー。lsで確認）
-     -  [ターミナル]git add README.md(README.mdをインデックスに登録)
-     -  [ターミナル]git status(できたか確認)
+    -  [ターミナル]pwd（場所確認）
+    - → /Users/iwanomutsumi
+    -  [ターミナル]ls（中身確認）
+    - → Desktop Downloads	Library Music Public ocuments	inittest	Movies Pictures
+    -  [ターミナル]cd ~/Desktop/課題（README.mdのあるフォルダへ移動）
+    - ダメだった
+    -  [ターミナル]pwd（場所確認）
+    →/Users/iwanomutsumi/Desktop/課題
+    -  [ターミナル]ls（中身確認）
+    - →0 2 4	README_R.md 1 3 README README.md
+    -  [ターミナル]git add README.md
+    -  [ターミナル]cd /Users/iwanomutsumi/inittest/.git/（git initで出たurlへ移動してみる）
+    - → ダメだった
+  - ターミナルの位置とファイルの場所が分かった
+    -  [ターミナル]cd /Users/iwanomutsumi/inittest(作業ツリーへ移動)
+    -  [ターミナル]cp ~/Desktop/課題/README.md .（ワーキングツリーへファイルをコピー。lsで確認）
+    -  [ターミナル]git add README.md(README.mdをインデックスに登録)
+    -  [ターミナル]git status(できたか確認)
     - → On branch main
      No commits yet
      Changes to be committed:
@@ -336,18 +295,20 @@ gitを使う前に、gitインストール・セットアップ、githubアカ�
       - git remote -v（リモートのurl確認）
 
 - 実施内容 
-  -  [ターミナル]git remote add origin https://github.com/iwanomutsumi/git_practice.git
-  - → github.com/iwanomutsumi/git_practice.git error: remote origin already exists.（もうある?って言われた）
-  -  [ターミナル]git remote set-url origin git@github.com:iwanomutsumi/git_practice.git（HTTPSのURLになっていたのでSSHに修正）
-  -  [ターミナル]ssh -T git@github.com（SSH接続テスト.）
-  - → GitHubからあいさつ来る（OKということ）
-  -  [ターミナル]git remote -v（リモートのurl確認）
-  - → origin	git@github.com:iwanomutsumi/git_practice.git (fetch)
-  - → origin	git@github.com:iwanomutsumi/git_practice.git (push)  
-  -  [ターミナル]git push -u origin main（githubにファイルをアップロード。originはリモート名、mainはブランチ名 masterのこともある、-uは次からgit pushだけでOKにする）
-  - → アップロードされたっぽい内容が出る
-
-  -  [ターミナル]git remote set-url origin git@github.com:iwanomutsumi/mau-j2n.git（Githubのレポジトリの名前を課題に合わせて変更したのでこちらも変更しておく）
+  - HTTP接続用のURLを使ってた
+    -  [ターミナル]git remote add origin https://github.com/iwanomutsumi/git_practice.git
+    - → github.com/iwanomutsumi/git_practice.git error: remote origin already exists.（もうある?って言われた）
+  - SSH用のURLに変えることが分かった
+    -  [ターミナル]git remote set-url origin git@github.com:iwanomutsumi/git_practice.git（HTTPSのURLになっていたのでSSHに修正）
+    -  [ターミナル]ssh -T git@github.com（SSH接続テスト.）
+    - → GitHubからあいさつ来る（OKということ）
+    -  [ターミナル]git remote -v（リモートのurl確認）
+    - → origin	git@github.com:iwanomutsumi/git_practice.git (fetch)
+    - → origin	git@github.com:iwanomutsumi/git_practice.git (push)  
+    -  [ターミナル]git push -u origin main（githubにファイルをアップロード。originはリモート名、mainはブランチ名 masterのこともある、-uは次からgit pushだけでOKにする）
+    - → アップロードされたっぽい内容が出る
+  -  githubのレポジトリの名前を課題の条件で作り忘れていたので名前をサイト上で変更
+     -  [ターミナル]git remote set-url origin git@github.com:iwanomutsumi/mau-j2n.git（Githubのレポジトリの名前を課題に合わせて変更したのでこちらも変更しておく）
 
 - 参考サイト
   - 【Git初心者向け】リポジトリの作成からpushまでを解説／侍エンジニアブログ
