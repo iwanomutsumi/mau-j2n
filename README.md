@@ -64,45 +64,64 @@ https://qiita.com/a_goto/items/0fe40b17105d1ac1c40b
      - Homebrewをインストール（インストーラーがあるようだがわからなかった）
      - Homebrewでgitをインストール
      - macのgitとHomebrewのgitが存在してしまうので、Homebrewのgitを優先するように指定する
+  - コマンドの種類
+    - git --version（入っている（優先の）gitのバージョンは？）
+    - xcode-select --install（xcordインストール）
+    - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" （Homebrewインストール）
+    - brew --version （Homebrewnのバージョンは？）
+    - brew install git （gitをインストール）
+    - brew update（Homebrew最新にして）
+    - brew upgrade git（それでgitアップデートして）
+    - which git（どっちのgit優先?）
+    - eval "$(/opt/homebrew/bin/brew shellenv zsh)"（パスをHomebrewのgit側へ）
+
 
 - 実施内容 2026/02/06/12:49
-  - [ターミナル] git --version （gitが入っているか？）
-  - → git version 2.50.1 (Apple Git-155)（macに入っているちょっと古いやつ）
-  - [ターミナル]xcode-select --install（xcordインストール）
-  - → xcode-select: note: Command line tools are already installed. Use "Software Update" in System Settings or the softwareupdate command line interface to install updates → もうインストールされてるからアップデートをインストールして（システム設定かコマンドで）
-  - → システム設定でソフトウェアアップデートする
-  - Homebrew https://brew.sh（インストール用コマンドがのってる）
-  - [ターミナル]/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" （Homebrewインストール）
-  - → [ターミナル]brew --version （Homebrewインストールされたか？）
-  - → zsh: command not found: brew  （インストールできていない）
-  - → まだインストール中かも（待ってみる）→ 
+  - gitが入っているか確認
+    - [ターミナル] git --version （gitが入っているか？）
+    - → git version 2.50.1 (Apple Git-155)（macに入っているちょっと古いやつ）
+  - インストールし直す
+    - Xcodeのコマンドラインツールをインストール
+      - [ターミナル]xcode-select --install（xcordインストール）
+      - → xcode-select: note: Command line tools are already installed. Use "Software Update" in System Settings or the softwareupdate command line interface to install updates → もうインストールされてるからアップデートをインストールして（システム設定かコマンドで）
+      - → システム設定でソフトウェアアップデートする
+    - Homebrewのインストール
+      - Homebrew https://brew.sh（インストール用コマンドがのってる）
+      - [ターミナル]/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" （Homebrewインストール）
+      - → [ターミナル]brew --version （Homebrewインストールされたか？）
+      - → zsh: command not found: brew  （インストールできていない）
+      - → まだインストール中かも（待ってみる）→ 
 
-  - → ==> Next steps:Run these commands in your terminal to add Homebrew to your PATH:
+      - → ==> Next steps:Run these commands in your terminal to add Homebrew to your PATH:
     echo >> /Users/iwanomutsumi/.zprofile
     echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/iwanomutsumi/.zprofile
     eval "$(/opt/homebrew/bin/brew shellenv zsh)"
-  - → 指示どうりコマンドを入れる
-  - [ターミナル]echo >> /Users/iwanomutsumi/.zprofile
-  - [ターミナル]echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/iwanomutsumi/.zprofile
-  - [ターミナル]eval "$(/opt/homebrew/bin/brew shellenv zsh)"
-  - [ターミナル] brew --version (インストールできたか確認)
-  - → Homebrew 5.0.13（できた）
-  - [ターミナル] brew install git （gitをインストール）
-  - [ターミナル] git --version （gitインストールされた？）
-  - → git version 2.50.1 (Apple Git-155)（macのgitのままになっている）
-  - [ターミナル]brew update（Homebrew最新にして）
-  - [ターミナル]brew upgrade git（それでgitアップデートして）
-  - → Warning: git 2.52.0_1 already installed（もうインストールされてる）
-  - [ターミナル]git --version（もう一回バージョン聞いてみる）
-  - → git version 2.50.1 (Apple Git-155)（まだmac）
-  - ChatGTPによるとHomebrrew側のgitが優先されていない（Macのgit優先）
-  - [ターミナル]which git（どっちのgit優先?）
-  - → /usr/bin/git（Macのgit）
-  - [ターミナル]eval "$(/opt/homebrew/bin/brew shellenv zsh)"（パスをHomebrewのgit側へ）
-  - [ターミナル]which git（どっちのgit優先?）
-  - → /opt/homebrew/bin/git（Homebrewのgit）
-  - → [ターミナル]git --version（git入ってる？）
-  - → git version 2.52.0（Homebrewになってバージョンも上がった）
+      - → 指示どうりコマンドを入れる
+      - [ターミナル]echo >> /Users/iwanomutsumi/.zprofile
+      - [ターミナル]echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/iwanomutsumi/.zprofile
+      - [ターミナル]eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+       - [ターミナル] brew --version (インストールできたか確認)
+      - → Homebrew 5.0.13（できた）
+    - gitをインストール
+      - [ターミナル] brew install git （gitをインストール）
+      - [ターミナル] git --version （gitインストールされた？）
+      - → git version 2.50.1 (Apple Git-155)（macのgitのままになっている）
+      - [ターミナル]brew update（Homebrew最新にして）
+      - [ターミナル]brew upgrade git（それでgitアップデートして）
+      - → Warning: git 2.52.0_1 already installed（もうインストールされてる）
+      - [ターミナル]git --version（もう一回バージョン聞いてみる）
+      - → git version 2.50.1 (Apple Git-155)（まだmac）
+
+
+    - Macのgitからhomebrewのgitに優先を変更する
+      - ChatGTPによるとHomebrrew側のgitが優先されていない（Macのgit優先）
+      - [ターミナル]which git（どっちのgit優先?）
+      - → /usr/bin/git（Macのgit）
+      - [ターミナル]eval "$(/opt/homebrew/bin/brew shellenv zsh)"（パスをHomebrewのgit側へ）
+      - [ターミナル]which git（どっちのgit優先?）
+      - → /opt/homebrew/bin/git（Homebrewのgit）
+      - [ターミナル]git --version（git入ってる？）
+      - → git version 2.52.0（Homebrewになってバージョンも上がった）
 - 参考サイト
   - Gitをインストールしてみよう！Windows/Macどちらも丁寧に解説／侍エンジニアリングブログ https://www.sejuku.net/blog/73444
   - Gitをインストールする方法（Windows、macOS、Linux別）／kinsta https://kinsta.com/jp/blog/install-git/
@@ -133,22 +152,24 @@ https://qiita.com/a_goto/items/0fe40b17105d1ac1c40b
 
 - 実施内容 2026/02/06/17:25
 
-   - [ターミナル]git config --global user.name "Iwano Mutsumi"（名前登録）
-  - → [ターミナル]git config --global user.email iwanomutsumi@gmail.com（メアド登録）
-   - [ターミナル]git config --global --list（登録できた？）
-  - → user.name=Iwano Mutsumi
-  - → user.email=iwanomutsumi@gmail.com (設定できた) 
+  - 名前とメアドの登録
 
-   - → [ターミナル]cd ~/.ssh（鍵作る場所に移動）
-   - → [ターミナル]ssh-keygen -t rsa（SSH鍵生成ツールでRSA方式の鍵を作る）
-  - → Generating public/private rsa key pair.（鍵作るよ）
-  - → Enter file in which to save the key (/Users/(username)/.ssh/id_rsa):（ここに鍵保存でいい？）
-  - Enter（そのままそこで）
-  - → Enter passphrase (empty for no passphrase):（鍵にパスフレーズつける？）
-  - Enter(つけない)
-  - → Enter same passphrase again:（確認のためもう一回パスフレーズ入れて）
-  - Enter（つけない）
-  - → Your identification has been saved in /Users/iwanomutsumi/.ssh/id_rsa
+     - [ターミナル]git config --global user.name "Iwano Mutsumi"（名前登録）
+    - → [ターミナル]git config --global user.email iwanomutsumi@gmail.com（メアド登録）
+     - [ターミナル]git config --global --list（登録できた？）
+    - → user.name=Iwano Mutsumi
+    - → user.email=iwanomutsumi@gmail.com (設定できた) 
+  - SSH接続のための鍵を作る
+     - [ターミナル]cd ~/.ssh（鍵作る場所に移動）
+     - [ターミナル]ssh-keygen -t rsa（SSH鍵生成ツールでRSA方式の鍵を作る）
+    - → Generating public/private rsa key pair.（鍵作るよ）
+    - → Enter file in which to save the key (/Users/(username)/.ssh/id_rsa):（ここに鍵保存でいい？）
+     - Enter（そのままそこで）
+    - → Enter passphrase (empty for no passphrase):（鍵にパスフレーズつける？）
+    - Enter(つけない)
+    - → Enter same passphrase again:（確認のためもう一回パスフレーズ入れて）
+    - Enter（つけない）
+    - → Your identification has been saved in /Users/iwanomutsumi/.ssh/id_rsa
 Your public key has been saved in /Users/iwanomutsumi/.ssh/id_rsa.pub
 The key fingerprint is:
 SHA256:12+wt3kwvhSSNQsC+ZibShmsvzdnVgVu1a88tEP2jcc iwanomutsumi@iwanomutsuminoMacBook-Pro.local
@@ -166,24 +187,25 @@ The key's randomart image is:
 +----[SHA256]-----+
 
 
-   -  [ターミナル]ls ~/.ssh（鍵が作られた?）
-   - → id_rsa		id_rsa.pub（作られた）
-   -  [ターミナル]pbcopy < ~/.ssh/id_rsa.pub（クリップボードに公開鍵をコピー）
-   -  [ターミナル]ssh-add ~/.ssh/id_rsa（秘密鍵をPCに登録）
+
+    -  [ターミナル]ls ~/.ssh（鍵が作られた?）
+     - → id_rsa		id_rsa.pub（作られた）
+     -  [ターミナル]pbcopy < ~/.ssh/id_rsa.pub（クリップボードに公開鍵をコピー）
+     -  [ターミナル]ssh-add ~/.ssh/id_rsa（秘密鍵をPCに登録）
     - → Identity added: /Users/iwanomutsumi/.ssh/id_rsa (iwanomutsumi@iwanomutsuminoMacBook-Pro.local)
-  - 鍵が２種類あることに気がつく
-  -  [ターミナル]ls ~/.ssh（結果でどちらの鍵が作られたか確認）
-     - 例：id_ed25519_github など（新しい作り方。GitHub推奨）
-     - id_rsa / id_rsa.pub（古い作り方。rasで作ってる）
-  - githubアカウント作成 → 「GitHubアカウント作成へ」
-  -  [ターミナル]ssh-keygen -t ed25519 -C "iwanomutsumi@gmail.com"（新しい鍵作る）
-  - Generating public/private ed25519 key pair.
+  - 鍵が２種類あることに気がつく（もう一つの方法で作り直す）
+    -  [ターミナル]ls ~/.ssh（結果でどちらの鍵が作られたか確認）
+       - 例：id_ed25519_github など（新しい作り方。GitHub推奨）
+       - id_rsa / id_rsa.pub（古い作り方。rasで作ってる）
+      - githubアカウント作成 → 「GitHubアカウント作成へ」
+      -  [ターミナル]ssh-keygen -t ed25519 -C "iwanomutsumi@gmail.com"（新しい鍵作る）
+      - Generating public/private ed25519 key pair.
 Enter file in which to save the key (/Users/iwanomutsumi/.ssh/id_ed25519): 
 Enter passphrase for "/Users/iwanomutsumi/.ssh/id_ed25519" (empty for no passphrase): 
 Enter same passphrase again: 
 
-  - →３回Enter（フレーズなどで強化しない）
-  - → Your identification has been saved in /Users/iwanomutsumi/.ssh/id_ed25519
+      - →３回Enter（フレーズなどで強化しない）
+      - → Your identification has been saved in /Users/iwanomutsumi/.ssh/id_ed25519
 Your public key has been saved in /Users/iwanomutsumi/.ssh/id_ed25519.pub
 The key fingerprint is:
 SHA256:7yjbKlir7Ro1IlZtd9Sy9Dta15c744s4U+x47oVkJlw iwanomutsumi@gmail.com
@@ -200,14 +222,14 @@ The key's randomart image is:
 |  o+o.o+o ..*+.o+|
 +----[SHA256]-----+
 
-  -  [ターミナル]eval "$(ssh-agent -s)"（鍵できた？）
-  - → Agent pid 12580（OK）
-  -  [ターミナル]ssh-add ~/.ssh/id_ed25519（秘密鍵PCに登録）
-  - → Identity added: /Users/iwanomutsumi/.ssh/id_ed25519 (iwanomutsumi@gmail.com)
-   -  [ターミナル]cat ~/.ssh/id_ed25519.pub（公開鍵をターミナルに表示・このコマンドは秘密鍵には絶丁使わないこと！）
-   - → ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINVuoF6F0il7lt5gALnQOccsENqhj028mjt/7DTK/O+d iwanomutsumi@gmail.com（表示さてた公開鍵）
+      -  [ターミナル]eval "$(ssh-agent -s)"（鍵できた？）
+      - → Agent pid 12580（OK）
+      -  [ターミナル]ssh-add ~/.ssh/id_ed25519（秘密鍵PCに登録）
+      - → Identity added: /Users/iwanomutsumi/.ssh/id_ed25519 (iwanomutsumi@gmail.com)
+       -  [ターミナル]cat ~/.ssh/id_ed25519.pub（公開鍵をターミナルに表示・このコマンドは秘密鍵には絶丁使わないこと！）
+       - → ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINVuoF6F0il7lt5gALnQOccsENqhj028mjt/7DTK/O+d iwanomutsumi@gmail.com（表示さてた公開鍵）
 
-  - GitHubサイトで公開鍵を登録
+      - GitHubサイトで公開鍵を登録
 
 
 
