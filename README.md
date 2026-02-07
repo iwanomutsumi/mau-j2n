@@ -344,4 +344,14 @@ https://docs.github.com/ja/get-started/start-your-journey/creating-an-account-on
 ### githubへのREADME。mdの公開方法
 2026/02/07/14:52
 - git pushまでを行えば閲覧可能（gitの使い方参照）
-- https://github.com/iwanomutsumi/mau-j2n で閲覧可能確認
+- https://github.com/iwanomutsumi/mau-j2n で閲覧可
+能確認
+- 修正ファイルをアップロードする場合のコマンド
+  1. cd /Users/iwanomutsumi/リポジトリ名
+  （cd /Users/iwanomutsumi/inittest）
+  2. cp ~/Desktop/フォルダ名/ファイル名 .
+  （cp ~/Desktop/課題/README.md）
+  3. git add ファイル名（git add README.md）
+  4. git commit -m “コメント"
+  5. git push
+- 1.はターミナルの位置が別の場所にいなければなしでもOK
